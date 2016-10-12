@@ -13,4 +13,5 @@ post '/:dm_device_id/oneshots' do
     puts data
   else 
     status 400
+  end
 end
